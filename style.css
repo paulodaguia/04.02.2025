@@ -109,7 +109,7 @@ footer {
 }
 
 .feature:hover {
-    transform: scale(1.09);
+    transform: scale(1.05);
     background: #ffffffef;
 }
 
