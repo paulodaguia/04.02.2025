@@ -4,67 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Nós</title>
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+
+    <a href="index.html" class="back-button">Voltar</a>
     <style>
-        * {
-            box-sizing: border-box;
+
+.back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: #ff5722;
+            color: #fff;
+            padding: 10px 15px;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            transition: background-color 0.3s;
         }
-        
+
+        .back-button:hover {
+            background-color: #bd401b;
+        }
+
         body {
             font-family: 'Arial', Helvetica, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f9f9f9;
-            color: #333;
+            margin: 0; 
+            padding: 0;
+            background-color: #dddada;
+            color: #000000;
             line-height: 1.6; 
         }
 
-        
         h1 {
             text-align: center;
             color: #ff5722; 
             margin-bottom: 20px;
             font-size: 2.5em;
-            font-weight: bolder;      
+            font-weight: bolder; 
         }
 
-        
-
         p {
+            margin-right: 10px;
+            margin-left: 10px;
             margin-bottom: 15px; 
             text-align: justify;
             padding: 1px;
         }
-
 
         @media (max-width: 600px) {
             h1 {
                 font-size: 2em;
             }
         }
-        h2{
-            font-family: "Space Grotesk", serif;
+
+        h2 {
             font-family: "Pacifico", serif;
-            font-size: 46px;
+            font-size: 60px;
             color: #ff5722;
             text-align: center;
             margin-top: auto;
         }
-        footer {
-    text-align: center;
-    padding: 20px 0;
-    background: #333;
-    color: #fff;
-    position: relative;
-}
-footer p{
-    text-align: center;
-}
+
+        footer {  
+            width: 100%;
+            padding: 20px 0;
+            background: #333;
+            color: #fff;
+            text-align: center;
+            margin: 0;
+            position: relative;
+        }
+
+        footer p {
+            text-align: center;
+        }
+
     </style>
 </head>
 <body>
     <h1>A História da</h1>
-    <h2 class="lanch">Lanchonete</h2>
+    <h2 class="lanch">Lanchonete Copo Cheio</h2>
     
     <p>
         Era uma tarde de verão, no ano de 2025, quando um homem apaixonado por culinária e pela arte de fazer as pessoas sorrirem com comida, decidiu que era hora de dar um passo importante na sua vida. Após anos trabalhando em restaurantes e ganhando experiência na cozinha, ele sentia que o momento certo havia chegado.
