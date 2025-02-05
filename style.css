@@ -1,18 +1,8 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: 'Ove-Only';
-    src: url(fonts/MoveOnlyRegular.ttf) format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-@font-face {
-    font-family: 'Hastagirl Chic Brush';
-    src: url('fonts/HastagirlChicBrush.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
 body {
     font-family: 'Arial', sans-serif;
@@ -34,7 +24,7 @@ header {
 }
 
 header h1 {
-    font-family: 'Ove-Only', cursive;
+    font-family:"Pacifico", serif;
     font-size: 100px;
     margin: 0;
 }
@@ -127,5 +117,5 @@ footer {
 
 h2 {
     color: #ff5722;
-    font-family: 'Hastagirl Chic Brush', cursive;
+    font-family: "Space Grotesk", serif;
 }
