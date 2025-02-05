@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
 body {
@@ -24,7 +23,7 @@ header {
 }
 
 header h1 {
-    font-family:"Pacifico", serif;
+    font-family: "Pacifico", serif;
     font-size: 100px;
     margin: 0;
 }
@@ -68,7 +67,6 @@ header h1 {
 .cta i {
     margin-right: 2px;
 }
-
 
 footer {
     text-align: center;
@@ -118,4 +116,52 @@ footer {
 h2 {
     color: #ff5722;
     font-family: "Space Grotesk", serif;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 60px;
+    }
+
+    .sub-header {
+        font-size: 16px;
+    }
+
+    .cta {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature {
+        margin: 10px 0;
+        max-width: 90%;
+    }
+
+    .feature img {
+        height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 40px;
+    }
+
+    .sub-header {
+        font-size: 14px;
+    }
+
+    .cta {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    .feature img {
+        height: 120px;
+    }
 }
