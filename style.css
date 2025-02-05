@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
-
-
-
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -13,31 +8,26 @@ body {
     flex-direction: column;
     display: flex;
 }
-
-
 .navigation ul {
     list-style: none;
     padding: 0; 
     margin: 0; 
 }
-
 .navigation li {
     position: relative; 
     margin-bottom: 15px; 
 }
-
 .navigation a {
     text-decoration: none; 
     color: inherit; 
     font-size: 24px; 
 }
-
 .tooltip-text {
     visibility: hidden;
     opacity: 0; 
     position: absolute;
     bottom: 0%; 
-    left: 50%;
+    left: 30%;
     transform: translateX(-30%);
     background-color: #333; 
     color: #fff;
@@ -57,6 +47,12 @@ body {
     margin: 0px;
     background: transparent;
     position: fixed;
+    top: 0; 
+    left: 0;
+    width: 200px;
+    height: 100%;
+    z-index: 1000;
+    overflow-y: auto;
 }
 
 .navigation ul {
@@ -86,7 +82,7 @@ body {
     color: #ffcc00; 
 }
 header {
-    background: #ff5722;
+    background: linear-gradient(to bottom, #ff5722, rgba(0, 0, 0, 0.8));
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -113,6 +109,7 @@ header h1 {
     max-width: 1200px;
     margin: auto;
     overflow: hidden;
+    padding-left: 45px;
 }
 
 .cta {
@@ -173,7 +170,7 @@ footer {
 
 .feature h2:hover {
     transform: scale(1.09);
-    color: #8f1919;
+    color: #944300;
 }
 
 .feature img {
@@ -234,4 +231,21 @@ h2 {
     .feature img {
         height: 120px;
     }
+}
+
+.next-button {
+    display: inline-block;
+    background-color: #C45900; /* Cor de fundo verde */
+    color: #fff; /* Cor do texto */
+    padding: 15px 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    border-radius: 5px; /* Bordas arredondadas */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 18px; /* Tamanho da fonte */
+    margin: 20px auto; /* Margem para centralizar */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+.next-button:hover {
+    background-color: #944300; /* Cor de fundo ao passar o mouse */
 }
