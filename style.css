@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Ove-Only';
+    src: url(fonts/MoveOnlyRegular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hastagirl Chic Brush';
+    src: url('fonts/HastagirlChicBrush.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/2e/78/c7/2e78c79cebbd4632cd41546a3138013e.gif') no-repeat center center fixed; 
+    background-size: cover;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: #ff5722;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Ove-Only', cursive;
+    font-size: 100px;
+    margin: 0;
+}
+
+.sub-header {
+    font-size: 20px;
+    background-color: #ffffff2a;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 13px 0 13px 0;
+    margin-top: 0px;
+}
+
+.container {
+    flex: 1;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.cta {
+    background: #28a745;
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 45px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cta:hover {
+    background: #8bbd95;
+}
+
+.cta i {
+    margin-right: 2px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.feature {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 10px;
+    min-width: 250px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.feature:hover {
+    transform: scale(1.09);
+    background: #ffffffef;
+}
+
+.feature h2:hover {
+    transform: scale(1.09);
+    color: #8f1919;
+}
+
+.feature img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #ff5722;
+    font-family: 'Hastagirl Chic Brush', cursive;
+}
