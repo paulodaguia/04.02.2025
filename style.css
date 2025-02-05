@@ -9,12 +9,9 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/2e/78/c7/2e78c79cebbd4632cd41546a3138013e.gif') no-repeat center center fixed; 
-    background-size: cover;
-    color: #333;
-    display: flex;
+    background: black;
     flex-direction: column;
-    min-height: 100vh;
+    display: flex;
 }
 
 
