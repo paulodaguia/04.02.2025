@@ -235,34 +235,34 @@ h2 {
 
 .next-button {
     display: inline-block;
-    background-color: #C45900; /* Cor de fundo verde */
-    color: #fff; /* Cor do texto */
-    padding: 15px 20px; /* Espaçamento interno */
-    text-align: center; /* Centraliza o texto */
-    border-radius: 5px; /* Bordas arredondadas */
-    text-decoration: none; /* Remove o sublinhado */
-    font-size: 18px; /* Tamanho da fonte */
-    margin: 20px auto; /* Margem para centralizar */
-    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+    background-color: #C45900; 
+    color: #fff; 
+    padding: 15px 20px; 
+    text-align: center; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-size: 18px; 
+    margin: 20px auto; 
+    transition: background-color 0.3s;para a cor de fundo */
 }
 
 .next-button:hover {
-    background-color: #944300; /* Cor de fundo ao passar o mouse */
+    background-color: #944300; 
 }
 
 .left-button {
     display: inline-block;
-    background-color: #05BEFB; /* Cor de fundo verde */
-    color: #fff; /* Cor do texto */
-    padding: 15px 20px; /* Espaçamento interno */
-    text-align: center; /* Centraliza o texto */
-    border-radius: 5px; /* Bordas arredondadas */
-    text-decoration: none; /* Remove o sublinhado */
-    font-size: 18px; /* Tamanho da fonte */
-    margin: 20px auto; /* Margem para centralizar */
-    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+    background-color: #05BEFB; 
+    color: #fff; 
+    padding: 15px 20px; 
+    text-align: center; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-size: 18px; 
+    margin: 20px auto; 
+    transition: background-color 0.3s;
 }
 
 .left-button:hover {
-    background-color: #005C7A; /* Cor de fundo ao passar o mouse */
+    background-color: #005C7A; 
 }
